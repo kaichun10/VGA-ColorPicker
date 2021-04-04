@@ -1,7 +1,5 @@
+___
 #### FPGA Camera and VGA-ColorPicker
-[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/kaichun10/Altera-DE1-SoC/main/img/FPGA_VGA.PNG)](https://www.youtube.com/watch?v=ckuHAFem7OM)
-
-
 ___
 
 #### Project summary list
