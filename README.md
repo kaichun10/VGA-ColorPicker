@@ -1,5 +1,6 @@
 ___
 #### FPGA Camera and VGA-ColorPicker
+[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/kaichun10/Altera-DE1-SoC/main/img/FPGA_VGA.PNG)](https://www.youtube.com/watch?v=ckuHAFem7OM)
 ___
 
 #### Project summary list
@@ -8,8 +9,8 @@ ___
 
 Requirement
   - Hardware devices
-    * Opal Kelly XEM6310 ( for ISE stimulaiton)
-    + DE1-SoC (for testing VGA and GPIO camera)
+    * Opal Kelly XEM6310
+    + DE1-SoC
   - Software
     * Xilinx ISE 14.7 Embedded edition
     + FrontPanel API
