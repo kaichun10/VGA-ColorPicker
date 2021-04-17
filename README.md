@@ -4,6 +4,23 @@ ___
 ___
 
 #### Project summary list
+A:.
+|   basic_RAM.vhd		# Defining simple BRAM for taking 8-bit RGB data and outputing 24-bit RGB data
+|   color_picker.vhd		# 24 bits VGA color picker from hexadecimal value
+|   controller.vhd		# FSM for output 8-bit RGB color to BRAM
+|   seven_seg.vhd		# Decode input RGB 8-bit signal for 7-Segment LED display
+|   pin_assignment.txt		# Pin assignment for DE1-SoC
+|   README.md
+|   
++---db
+|       
++---incremental_db
+|   |   README
+|   \---compiled_partitions
+|           
+\---output_files
+        color_picker.sof	# Final SRAM object file
+
 ___
 
 
