@@ -4,6 +4,7 @@ ___
 ___
 
 #### Project summary list
+```
 A:.
 |   basic_RAM.vhd		# Defining simple BRAM for taking 8-bit RGB data and outputing 24-bit RGB data
 |   color_picker.vhd		# 24 bits VGA color picker from hexadecimal value
@@ -20,7 +21,7 @@ A:.
 |           
 \---output_files
         color_picker.sof	# Final SRAM object file
-
+```
 ___
 
 
