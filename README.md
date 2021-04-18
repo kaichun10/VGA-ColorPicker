@@ -145,12 +145,12 @@ ___
 
 #### Top-level schematic
 
-![Top-level_schematic](https://raw.githubusercontent.com/kaichun10/Altera-DE1-SoC/main/img/LX150_ISE_Licence.PNG)
+![Top-level_schematic](https://raw.githubusercontent.com/kaichun10/VGA-ColorPicker/feature_add-list/img/Top-Module.PNG)
 ___
 
 #### Controller-BRAM schematic
 
-![Controller-BRAM_schematic](https://raw.githubusercontent.com/kaichun10/Altera-DE1-SoC/main/img/LX150_ISE_Licence.PNG)
+![Controller-BRAM_schematic](https://raw.githubusercontent.com/kaichun10/VGA-ColorPicker/feature_add-list/img/Controller-BRAM.PNG)
 ___
 
 	Horizontal synchronous goes low between front porch and back porch
