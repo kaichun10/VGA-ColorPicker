@@ -99,7 +99,7 @@ ARCHITECTURE rtl OF color_picker IS
 		);
 	END COMPONENT;
 
-	COMPONENT basic_RAM
+	COMPONENT basic_BRAM
 		PORT (
 			-- CLK (need to synchronous to CLK_50)
 			RAM_CLOCK : IN STD_LOGIC;
@@ -206,7 +206,7 @@ BEGIN
 		B_data_out => B_data_out
 	);
 
-	U2 : basic_RAM
+	U2 : basic_BRAM
 	PORT MAP(
 		-- Synchronous BRAM CLK with onboard 50MHz CLK
 		RAM_CLOCK => clk_50,

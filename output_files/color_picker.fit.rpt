@@ -1,5 +1,5 @@
 Fitter report for color_picker
-Sun Apr 04 14:34:03 2021
+Mon Apr 19 22:24:35 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -64,7 +64,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Sun Apr 04 14:34:03 2021       ;
+; Fitter Status                   ; Successful - Mon Apr 19 22:24:35 2021       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; color_picker                                ;
 ; Top-level Entity Name           ; color_picker                                ;
@@ -159,9 +159,9 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.5%      ;
-;     Processor 3            ;   0.5%      ;
-;     Processor 4            ;   0.5%      ;
+;     Processor 2            ;   0.6%      ;
+;     Processor 3            ;   0.6%      ;
+;     Processor 4            ;   0.6%      ;
 +----------------------------+-------------+
 
 
@@ -1565,7 +1565,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; Compilation Hierarchy Node ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name         ; Entity Name  ; Library Name ;
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------+--------------+--------------+
 ; |color_picker              ; 61.0 (27.0)          ; 84.0 (30.3)                      ; 23.0 (3.3)                                        ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 118 (64)            ; 110 (21)                  ; 0 (0)         ; 0                 ; 0     ; 0          ; 95   ; 0            ; |color_picker               ; color_picker ; work         ;
-;    |basic_RAM:U2|          ; 8.0 (8.0)            ; 18.8 (18.8)                      ; 10.8 (10.8)                                       ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 3 (3)               ; 48 (48)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |color_picker|basic_RAM:U2  ; basic_RAM    ; work         ;
+;    |basic_BRAM:U2|         ; 8.0 (8.0)            ; 18.8 (18.8)                      ; 10.8 (10.8)                                       ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 3 (3)               ; 48 (48)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |color_picker|basic_BRAM:U2 ; basic_BRAM   ; work         ;
 ;    |controller:U1|         ; 11.3 (11.3)          ; 17.6 (17.6)                      ; 6.2 (6.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 9 (9)               ; 41 (41)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |color_picker|controller:U1 ; controller   ; work         ;
 ;    |seven_seg:U3|          ; 4.8 (4.8)            ; 5.7 (5.7)                        ; 0.8 (0.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 14 (14)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |color_picker|seven_seg:U3  ; seven_seg    ; work         ;
 ;    |seven_seg:U4|          ; 5.0 (5.0)            ; 6.3 (6.3)                        ; 1.3 (1.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 14 (14)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |color_picker|seven_seg:U4  ; seven_seg    ; work         ;
@@ -1756,9 +1756,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------+----------------------+---------+---------------------------+--------+----------------------+------------------+---------------------------+
 ; Name                            ; Location             ; Fan-Out ; Usage                     ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +---------------------------------+----------------------+---------+---------------------------+--------+----------------------+------------------+---------------------------+
-; basic_RAM:U2|Decoder0~0         ; LABCELL_X43_Y41_N12  ; 8       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
-; basic_RAM:U2|Decoder0~1         ; LABCELL_X43_Y41_N27  ; 8       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
-; basic_RAM:U2|Decoder0~2         ; LABCELL_X43_Y41_N21  ; 8       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
+; basic_BRAM:U2|Decoder0~0        ; LABCELL_X43_Y41_N12  ; 8       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
+; basic_BRAM:U2|Decoder0~1        ; LABCELL_X43_Y41_N27  ; 8       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
+; basic_BRAM:U2|Decoder0~2        ; LABCELL_X43_Y41_N21  ; 8       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
 ; clk_50                          ; PIN_AF14             ; 111     ; Clock                     ; yes    ; Global Clock         ; GCLK6            ; --                        ;
 ; controller:U1|B_data_out[3]~0   ; LABCELL_X43_Y41_N45  ; 8       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
 ; controller:U1|G_data_out[3]~0   ; LABCELL_X43_Y40_N0   ; 8       ; Clock enable              ; no     ; --                   ; --               ; --                        ;
@@ -2076,14 +2076,14 @@ This will disable optimization of problematic paths and expose them for further 
 +-------------------------------------+-------------------------------------+-------------------+
 ; controller:U1|present_state.B_write ; controller:U1|next_state.B_write    ; 0.340             ;
 ; controller:U1|present_state.R_write ; controller:U1|next_state.R_write    ; 0.323             ;
-; controller:U1|RAM_DATA_OUT[6]       ; basic_RAM:U2|RAM[2][6]              ; 0.051             ;
-; controller:U1|RAM_DATA_OUT[4]       ; basic_RAM:U2|RAM[2][4]              ; 0.051             ;
-; controller:U1|RAM_DATA_OUT[2]       ; basic_RAM:U2|RAM[2][2]              ; 0.051             ;
-; controller:U1|RAM_DATA_OUT[0]       ; basic_RAM:U2|RAM[2][0]              ; 0.051             ;
-; controller:U1|RAM_DATA_OUT[7]       ; basic_RAM:U2|RAM[2][7]              ; 0.044             ;
-; controller:U1|RAM_DATA_OUT[5]       ; basic_RAM:U2|RAM[2][5]              ; 0.044             ;
-; controller:U1|RAM_DATA_OUT[3]       ; basic_RAM:U2|RAM[2][3]              ; 0.044             ;
-; controller:U1|RAM_DATA_OUT[1]       ; basic_RAM:U2|RAM[2][1]              ; 0.044             ;
+; controller:U1|RAM_DATA_OUT[6]       ; basic_BRAM:U2|RAM[2][6]             ; 0.051             ;
+; controller:U1|RAM_DATA_OUT[4]       ; basic_BRAM:U2|RAM[2][4]             ; 0.051             ;
+; controller:U1|RAM_DATA_OUT[2]       ; basic_BRAM:U2|RAM[2][2]             ; 0.051             ;
+; controller:U1|RAM_DATA_OUT[0]       ; basic_BRAM:U2|RAM[2][0]             ; 0.051             ;
+; controller:U1|RAM_DATA_OUT[7]       ; basic_BRAM:U2|RAM[2][7]             ; 0.044             ;
+; controller:U1|RAM_DATA_OUT[5]       ; basic_BRAM:U2|RAM[2][5]             ; 0.044             ;
+; controller:U1|RAM_DATA_OUT[3]       ; basic_BRAM:U2|RAM[2][3]             ; 0.044             ;
+; controller:U1|RAM_DATA_OUT[1]       ; basic_BRAM:U2|RAM[2][1]             ; 0.044             ;
 ; controller:U1|next_state.R_write    ; controller:U1|present_state.R_write ; 0.012             ;
 +-------------------------------------+-------------------------------------+-------------------+
 Note: This table only shows the top 11 path(s) that have the largest delay added for hold.
@@ -2118,7 +2118,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "data_In[8]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "data_In[9]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "load_bar" is assigned to location or region, but does not exist in design
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:14
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:12
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
@@ -2131,7 +2131,7 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
-Info (11888): Total time spent on timing analysis during the Fitter is 0.46 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.42 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -2140,10 +2140,10 @@ Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:04
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/LocalAltera/LocalQuartusProjects/DE1-SoC/VGA_ColorPicker/output_files/color_picker.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 11 warnings
-    Info: Peak virtual memory: 6556 megabytes
-    Info: Processing ended: Sun Apr 04 14:34:04 2021
-    Info: Elapsed time: 00:00:38
-    Info: Total CPU time (on all processors): 00:01:09
+    Info: Peak virtual memory: 6557 megabytes
+    Info: Processing ended: Mon Apr 19 22:24:36 2021
+    Info: Elapsed time: 00:00:37
+    Info: Total CPU time (on all processors): 00:01:01
 
 
 +----------------------------+
