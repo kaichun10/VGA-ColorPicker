@@ -14,7 +14,11 @@ A:.
 |   README.md
 |   
 +---db
-|       
+|
++---img
+|   	Controller-BRAM.PNG
+|       Top-Module.PNG       
+|
 +---incremental_db
 |   |   README
 |   \---compiled_partitions
@@ -139,6 +143,15 @@ ___
 
 ___
 
+#### Top-level schematic
+
+![Top-level_schematic](https://raw.githubusercontent.com/kaichun10/VGA-ColorPicker/feature_add-list/img/Top-Module.PNG)
+___
+
+#### Controller-BRAM schematic
+
+![Controller-BRAM_schematic](https://raw.githubusercontent.com/kaichun10/VGA-ColorPicker/feature_add-list/img/Controller-BRAM.PNG)
+___
 
 	Horizontal synchronous goes low between front porch and back porch
 ``` vhdl
