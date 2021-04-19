@@ -35,6 +35,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -544 -208 -480 -184))
 )
 (pin
 	(input)
@@ -51,6 +52,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 117 12)(pt 121 8))
 	)
 	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -552 -160 -480 -136))
 )
 (pin
 	(input)
@@ -67,7 +69,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 216 392 304 416))
+	(annotation_block (location)(rect -568 -408 -480 -384))
 )
 (pin
 	(input)
@@ -84,6 +86,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -544 -184 -480 -160))
 )
 (pin
 	(input)
@@ -116,6 +119,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 760 192 832 216))
 )
 (pin
 	(input)
@@ -132,6 +136,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 768 216 832 240))
 )
 (pin
 	(input)
@@ -196,6 +201,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 824 -408 888 -384))
 )
 (pin
 	(output)
@@ -212,6 +218,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 824 -384 888 -360))
 )
 (pin
 	(output)
@@ -404,6 +411,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 168 1776 192))
 )
 (pin
 	(output)
@@ -420,6 +428,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 192 1768 216))
 )
 (pin
 	(output)
@@ -436,6 +445,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 216 1776 240))
 )
 (pin
 	(output)
@@ -452,6 +462,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 240 1776 264))
 )
 (pin
 	(output)
@@ -468,6 +479,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 264 1776 288))
 )
 (pin
 	(output)
@@ -484,6 +496,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 288 1768 312))
 )
 (pin
 	(output)
@@ -500,6 +513,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 312 1768 336))
 )
 (pin
 	(output)
@@ -516,6 +530,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 336 1760 360))
 )
 (pin
 	(output)
@@ -532,6 +547,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 360 1768 384))
 )
 (pin
 	(output)
@@ -548,6 +564,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 384 1768 408))
 )
 (pin
 	(output)
@@ -564,6 +581,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 400 1768 424))
 )
 (pin
 	(output)
@@ -580,6 +598,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 416 1768 440))
 )
 (pin
 	(output)
@@ -596,6 +615,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1704 432 1768 456))
 )
 (pin
 	(output)
@@ -612,77 +632,7 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-)
-(symbol
-	(rect 192 -432 512 -288)
-	(text "basic_RAM" (rect 5 0 60 12)(font "Arial" ))
-	(text "inst" (rect 8 128 25 140)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "RAM_CLOCK" (rect 0 0 67 12)(font "Arial" ))
-		(text "RAM_CLOCK" (rect 21 27 88 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "RAM_WR" (rect 0 0 48 12)(font "Arial" ))
-		(text "RAM_WR" (rect 21 43 69 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "RAM_ADDR[1..0]" (rect 0 0 87 12)(font "Arial" ))
-		(text "RAM_ADDR[1..0]" (rect 21 59 108 71)(font "Arial" ))
-		(line (pt 0 64)(pt 16 64)(line_width 3))
-	)
-	(port
-		(pt 0 80)
-		(input)
-		(text "RAM_DATA_IN[7..0]" (rect 0 0 101 12)(font "Arial" ))
-		(text "RAM_DATA_IN[7..0]" (rect 21 75 122 87)(font "Arial" ))
-		(line (pt 0 80)(pt 16 80)(line_width 3))
-	)
-	(port
-		(pt 320 32)
-		(output)
-		(text "LED_RAM[1..0]" (rect 0 0 76 12)(font "Arial" ))
-		(text "LED_RAM[1..0]" (rect 235 27 311 39)(font "Arial" ))
-		(line (pt 320 32)(pt 304 32)(line_width 3))
-	)
-	(port
-		(pt 320 48)
-		(output)
-		(text "LED_RAM_DATA_IN[7..0]" (rect 0 0 128 12)(font "Arial" ))
-		(text "LED_RAM_DATA_IN[7..0]" (rect 191 43 319 55)(font "Arial" ))
-		(line (pt 320 48)(pt 304 48)(line_width 3))
-	)
-	(port
-		(pt 320 64)
-		(output)
-		(text "RAM_R_DATA_OUT[7..0]" (rect 0 0 126 12)(font "Arial" ))
-		(text "RAM_R_DATA_OUT[7..0]" (rect 193 59 319 71)(font "Arial" ))
-		(line (pt 320 64)(pt 304 64)(line_width 3))
-	)
-	(port
-		(pt 320 80)
-		(output)
-		(text "RAM_G_DATA_OUT[7..0]" (rect 0 0 126 12)(font "Arial" ))
-		(text "RAM_G_DATA_OUT[7..0]" (rect 193 75 319 87)(font "Arial" ))
-		(line (pt 320 80)(pt 304 80)(line_width 3))
-	)
-	(port
-		(pt 320 96)
-		(output)
-		(text "RAM_B_DATA_OUT[7..0]" (rect 0 0 125 12)(font "Arial" ))
-		(text "RAM_B_DATA_OUT[7..0]" (rect 194 91 319 103)(font "Arial" ))
-		(line (pt 320 96)(pt 304 96)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 304 128))
-	)
+	(annotation_block (location)(rect 1704 456 1768 480))
 )
 (symbol
 	(rect 1104 168 1392 472)
@@ -1009,6 +959,77 @@ https://fpgasoftware.intel.com/eula.
 	)
 	(drawing
 		(rectangle (rect 16 16 208 64))
+	)
+)
+(symbol
+	(rect 192 -432 512 -288)
+	(text "basic_BRAM" (rect 5 0 67 12)(font "Arial" ))
+	(text "inst7" (rect 8 128 30 145)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "RAM_CLOCK" (rect 0 0 67 12)(font "Arial" ))
+		(text "RAM_CLOCK" (rect 21 27 88 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "RAM_WR" (rect 0 0 48 12)(font "Arial" ))
+		(text "RAM_WR" (rect 21 43 69 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "RAM_ADDR[1..0]" (rect 0 0 87 12)(font "Arial" ))
+		(text "RAM_ADDR[1..0]" (rect 21 59 108 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "RAM_DATA_IN[7..0]" (rect 0 0 101 12)(font "Arial" ))
+		(text "RAM_DATA_IN[7..0]" (rect 21 75 122 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 320 32)
+		(output)
+		(text "LED_RAM[1..0]" (rect 0 0 76 12)(font "Arial" ))
+		(text "LED_RAM[1..0]" (rect 235 27 311 39)(font "Arial" ))
+		(line (pt 320 32)(pt 304 32)(line_width 3))
+	)
+	(port
+		(pt 320 48)
+		(output)
+		(text "LED_RAM_DATA_IN[7..0]" (rect 0 0 128 12)(font "Arial" ))
+		(text "LED_RAM_DATA_IN[7..0]" (rect 191 43 319 55)(font "Arial" ))
+		(line (pt 320 48)(pt 304 48)(line_width 3))
+	)
+	(port
+		(pt 320 64)
+		(output)
+		(text "RAM_R_DATA_OUT[7..0]" (rect 0 0 126 12)(font "Arial" ))
+		(text "RAM_R_DATA_OUT[7..0]" (rect 193 59 319 71)(font "Arial" ))
+		(line (pt 320 64)(pt 304 64)(line_width 3))
+	)
+	(port
+		(pt 320 80)
+		(output)
+		(text "RAM_G_DATA_OUT[7..0]" (rect 0 0 126 12)(font "Arial" ))
+		(text "RAM_G_DATA_OUT[7..0]" (rect 193 75 319 87)(font "Arial" ))
+		(line (pt 320 80)(pt 304 80)(line_width 3))
+	)
+	(port
+		(pt 320 96)
+		(output)
+		(text "RAM_B_DATA_OUT[7..0]" (rect 0 0 125 12)(font "Arial" ))
+		(text "RAM_B_DATA_OUT[7..0]" (rect 194 91 319 103)(font "Arial" ))
+		(line (pt 320 96)(pt 304 96)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 304 128))
 	)
 )
 (connector
