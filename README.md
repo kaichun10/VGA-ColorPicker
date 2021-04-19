@@ -143,6 +143,7 @@ ___
 
 ___
 
+<<<<<<< HEAD
 #### Top-level schematic
 
 ![Top-level_schematic](https://raw.githubusercontent.com/kaichun10/VGA-ColorPicker/feature_add-list/img/Top-Module.PNG)
@@ -153,6 +154,8 @@ ___
 ![Controller-BRAM_schematic](https://raw.githubusercontent.com/kaichun10/VGA-ColorPicker/feature_add-list/img/Controller-BRAM.PNG)
 ___
 
+=======
+>>>>>>> 520a9475258e85df5354305037dbc7bdc29f3454
 	Horizontal synchronous goes low between front porch and back porch
 ``` vhdl
     // Horizontal synchronus
@@ -222,5 +225,48 @@ ___
 
 #### Compiling VHDL in Cadence NCLaunch and simulating in SimVision
 [![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/kaichun10/Altera-DE1-SoC/main/img/605c8581d7129-fbutube-Cadence-NCLaunch.png)](https://www.youtube.com/watch?v=sJV8FFTZp4o&t=204s)
+
+___
+
+#### GitLab specific runner and pipeline setup
+___
+
+#### Install and setup specific GitLab runner plus implement simple CI/CD test pipeline
+
+[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/kaichun10/Altera-DE1-SoC/main/img/605c846faa5f1-fbutube-GitLab-CI-CD-Pipeline.png)](https://www.youtube.com/watch?v=YLt1fnEq66U&t=225s)
+
+___
+
+
+
+
+
+
+#### Install and run GitLab runner
+
+1. Create a folder named GitLab-Runner
+
+2. Download .exe and rename to gitlab-runner.exe
+
+3. Run an elevated command prompt (CMD Run as Administrator)
+
+4. Register a runner
+.\gitlab-runner.exe register
+
+5. Install GitLab Runner
+cd C:\GitLab-Runner
+.\gitlab-runner.exe install
+.\gitlab-runner.exe start
+
+___
+
+#### Run CI/CD pipeline
+1. Create `.gitlab-ci.yml`
+
+2. Write a simple test in `.yaml`
+
+3. Git commit and push
+
+4. Make changes and push again to test the pipeline
 
 ___
