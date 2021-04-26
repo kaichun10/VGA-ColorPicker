@@ -6,7 +6,7 @@ ___
 #### Project summary list
 ```
 A:.
-|   basic_RAM.vhd		# Defining simple BRAM for taking 8-bit RGB data and outputing 24-bit RGB data
+|   basic_BRAM.vhd		# Defining simple BRAM for taking 8-bit RGB data and outputing 24-bit RGB data
 |   color_picker.vhd		# 24 bits VGA color picker from hexadecimal value
 |   controller.vhd		# FSM for output 8-bit RGB color to BRAM
 |   seven_seg.vhd		# Decode input RGB 8-bit signal for 7-Segment LED display
@@ -143,7 +143,6 @@ ___
 
 ___
 
-<<<<<<< HEAD
 #### Top-level schematic
 
 ![Top-level_schematic](https://raw.githubusercontent.com/kaichun10/VGA-ColorPicker/feature_add-list/img/Top-Module.PNG)
@@ -154,8 +153,6 @@ ___
 ![Controller-BRAM_schematic](https://raw.githubusercontent.com/kaichun10/VGA-ColorPicker/feature_add-list/img/Controller-BRAM.PNG)
 ___
 
-=======
->>>>>>> 520a9475258e85df5354305037dbc7bdc29f3454
 	Horizontal synchronous goes low between front porch and back porch
 ``` vhdl
     // Horizontal synchronus
